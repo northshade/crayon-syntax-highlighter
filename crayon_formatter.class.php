@@ -115,7 +115,7 @@ class CrayonFormatter {
             $_line_height = $hl->setting_val(CrayonSettings::LINE_HEIGHT);
             // Don't allow line height to be less than font size
             $line_height = ($_line_height > $_font_size ? $_line_height : $_font_size) . 'px !important;';
-            $crayon_height = 1.5;
+            		$crayon_height = 1.5;
 	    $toolbar_height = $_font_size * $crayon_height . 'px !important;';
 	    $info_height = $_font_size * $crayon_height . 'px !important;';
 
